@@ -74,7 +74,6 @@ class Editmessage : AppCompatActivity() {
             //Adapter2.update
         }
 
-
         recyclerView2.layoutManager=LinearLayoutManager(this)
 
      }
