@@ -1,0 +1,80 @@
+package com.example.line.Service
+
+import com.example.line.R
+import com.example.line.model.ImageModel
+
+object DataService {
+
+        val groups= mutableListOf<ImageModel>(
+
+
+                    ImageModel("松果","1234","09:10","5",R.drawable.k1),
+                    ImageModel( "Line Today","5678","15:11","40", R.drawable.k2),
+                    ImageModel("Line Music","1244","13:45","9",R.drawable.k3 ),
+                    ImageModel("生活市集","hello","09:07","54", R.drawable.k4 ),
+                    ImageModel("瘋狂邦尼","我討厭你","16:17","43",R.drawable.k5),
+                    ImageModel("小三美日","跟你說一個秘密ㄛ","21:55","30", R.drawable.k6),
+                    ImageModel("煩人的貓咪","呵呵","17:17","17",R.drawable.k7),
+                    ImageModel("豆卡", "說拉","14:08","99",R.drawable.k8png),
+                    ImageModel("Misa","吼你又來了","16:17","41",R.drawable.k9),
+                    ImageModel("白爛貓","說謊","18:36","28",R.drawable.k10),
+                    ImageModel("史蒂奇","明天要交報告","04:13", "1",R.drawable.k11),
+                    ImageModel("松果","1234","09:10","5", R.drawable.k1),
+                     ImageModel( "Line Today","5678","15:11","40", R.drawable.k2),
+                        ImageModel("Line Music","1244","13:45","9",R.drawable.k3 ),
+                     ImageModel("生活市集","hello","09:07","54", R.drawable.k4 ),
+                    ImageModel("瘋狂邦尼","我討厭你","16:17","43",R.drawable.k5),
+                    ImageModel("小三美日","跟你說一個秘密ㄛ","21:55","30", R.drawable.k6),
+                   ImageModel("煩人的貓咪","呵呵","17:17","17",R.drawable.k7),
+                      ImageModel("豆卡", "說拉","14:08","99",R.drawable.k8png),
+                   ImageModel("Misa","吼你又來了","16:17","41",R.drawable.k9),
+                     ImageModel("白爛貓","說謊","18:36","28",R.drawable.k10),
+                 ImageModel("史蒂奇","明天要交報告","04:13", "1",R.drawable.k11),
+            ImageModel("松果","1234","09:10","5", R.drawable.k1),
+            ImageModel( "Line Today","5678","15:11","40", R.drawable.k2),
+            ImageModel("Line Music","1244","13:45","9",R.drawable.k3 ),
+            ImageModel("生活市集","hello","09:07","54", R.drawable.k4 ),
+            ImageModel("瘋狂邦尼","我討厭你","16:17","43",R.drawable.k5),
+            ImageModel("小三美日","跟你說一個秘密ㄛ","21:55","30", R.drawable.k6),
+            ImageModel("煩人的貓咪","呵呵","17:17","17",R.drawable.k7),
+            ImageModel("豆卡", "說拉","14:08","99",R.drawable.k8png),
+            ImageModel("Misa","吼你又來了","16:17","41",R.drawable.k9),
+            ImageModel("白爛貓","說謊","18:36","28",R.drawable.k10),
+            ImageModel("史蒂奇","明天要交報告","04:13", "1",R.drawable.k11),
+            ImageModel("松果","1234","09:10","5", R.drawable.k1),
+            ImageModel( "Line Today","5678","15:11","40", R.drawable.k2),
+            ImageModel("Line Music","1244","13:45","9",R.drawable.k3 ),
+            ImageModel("生活市集","hello","09:07","54", R.drawable.k4 ),
+            ImageModel("瘋狂邦尼","我討厭你","16:17","43",R.drawable.k5),
+            ImageModel("小三美日","跟你說一個秘密ㄛ","21:55","30", R.drawable.k6),
+            ImageModel("煩人的貓咪","呵呵","17:17","17",R.drawable.k7),
+            ImageModel("豆卡", "說拉","14:08","99",R.drawable.k8png),
+            ImageModel("Misa","吼你又來了","16:17","41",R.drawable.k9),
+            ImageModel("白爛貓","說謊","18:36","28",R.drawable.k10),
+            ImageModel("史蒂奇","明天要交報告","04:13", "1",R.drawable.k11),
+            ImageModel("松果","1234","09:10","5", R.drawable.k1),
+            ImageModel( "Line Today","5678","15:11","40", R.drawable.k2),
+            ImageModel("Line Music","1244","13:45","9",R.drawable.k3 ),
+            ImageModel("生活市集","hello","09:07","54", R.drawable.k4 ),
+            ImageModel("瘋狂邦尼","我討厭你","16:17","43",R.drawable.k5),
+            ImageModel("小三美日","跟你說一個秘密ㄛ","21:55","30", R.drawable.k6),
+            ImageModel("煩人的貓咪","呵呵","17:17","17",R.drawable.k7),
+            ImageModel("豆卡", "說拉","14:08","99",R.drawable.k8png),
+            ImageModel("Misa","吼你又來了","16:17","41",R.drawable.k9),
+            ImageModel("白爛貓","說謊","18:36","28",R.drawable.k10),
+            ImageModel("史蒂奇","明天要交報告","04:13", "1",R.drawable.k11),
+            ImageModel("松果","1234","09:10","5", R.drawable.k1),
+            ImageModel( "Line Today","5678","15:11","40", R.drawable.k2),
+            ImageModel("Line Music","1244","13:45","9",R.drawable.k3 ),
+            ImageModel("生活市集","hello","09:07","54", R.drawable.k4 ),
+            ImageModel("瘋狂邦尼","我討厭你","16:17","43",R.drawable.k5),
+            ImageModel("小三美日","跟你說一個秘密ㄛ","21:55","30", R.drawable.k6),
+            ImageModel("煩人的貓咪","呵呵","17:17","17",R.drawable.k7),
+            ImageModel("豆卡", "說拉","14:08","99",R.drawable.k8png),
+            ImageModel("Misa","吼你又來了","16:17","41",R.drawable.k9),
+            ImageModel("白爛貓","說謊","18:36","28",R.drawable.k10),
+            ImageModel("史蒂奇","明天要交報告","04:13", "1",R.drawable.k11)
+        )
+}
+
+

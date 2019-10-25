@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/speechbubble"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item android:title="編輯訊息"
+          android:id="@+id/edit" />
+    <item android:title="聊天室排序"
+          android:id="@+id/sequence" />
+    <item android:title="全部標記為已讀"
+         android:id="@+id/mark"/>
+</menu>
